@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="4527509964134461586" datatype="html">
+        <source>French keyboard</source>
+        <target>Clavier français</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/change-locale-dropdown/change-locale-dropdown.component.html</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="366983490003688774" datatype="html">
+        <source>US keyboard</source>
+        <target>Clavier US</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/change-locale-dropdown/change-locale-dropdown.component.html</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7795449571852038621" datatype="html">
+        <source>About the author</source>
+        <target>A propos de l&apos;auteur</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/change-locale-dropdown/change-locale-dropdown.component.html</context>
+          <context context-type="linenumber">21,22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="763434360141362050" datatype="html">
+        <source>Start over</source>
+        <target>Recommencer</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dialog/dialog.component.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3885497195825665706" datatype="html">
+        <source>Next</source>
+        <target>Suivant</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dialog/dialog.component.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4121965028779444962" datatype="html">
+        <source><x id="PH" equiv-text="score"/>% correct in <x id="PH_1" equiv-text="time"/> seconds</source>
+        <target><x id="PH" equiv-text="score"/>% correct en <x id="PH_1" equiv-text="time"/>secondes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dialog/dialog.component.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8595551586692413973" datatype="html">
+        <source><x id="PH" equiv-text="getVelocity({ input, time })"/> words per minute</source>
+        <target><x id="PH" equiv-text="getVelocity({ input, time })"/> mots par minutes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dialog/dialog.component.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="645506797587969041" datatype="html">
+        <source>Learn how to type</source>
+        <target>Apprenez à taper au clavier</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/game/game.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7328175834266423792" datatype="html">
+        <source>level</source>
+        <target>niveau</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/game/game.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3733215288982610673" datatype="html">
+        <source>Level</source>
+        <target>Niveau</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/progress-bar/progress-bar.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7833739845818381513" datatype="html">
+        <source>Start over to unlock the next level</source>
+        <target>Recommencez pour débloquer le niveau suivant</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/utils.ts</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7314082811536483078" datatype="html">
+        <source>Not bad</source>
+        <target>Pas mal</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/utils.ts</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1847025013718978260" datatype="html">
+        <source>Good job! 🎉🎉🎉</source>
+        <target>Très bien ! 🎉🎉🎉</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/utils.ts</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

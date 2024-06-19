@@ -1,0 +1,111 @@
+{
+    "content": [
+        {
+            "title": "Premier excercice de la main gauche, rangée du milieu.",
+            "content": [
+                "qqqq ssss dddd ffff gggg qqqq ssss dddd ffff gggg qqqq ssss",
+                "qq ss dd ff gg qq ss dd ff gg qq ss dd ff gg",
+                "qsdfg qsdfg qsdfg qsdfg qsdfg qsdfg qsdfg qsdfg",
+                "fgqds dqgfs gsqfd dsqgf fqsdg gqdfs sgdqf qfgds fdsqg"
+            ]
+        },
+        {
+            "title": "Premier excercice de la main droite, rangée du milieu.",
+            "content": [
+                "hhhh jjjj kkkk llll mmmm hhhh jjjj kkkk llll mmmm h j k l m",
+                "hh jj kk lll mm hhhh jjj kkk lll mmm h j k l m",
+                "mlkjh mlkjh mlkjh mlkjh",
+                "klhjm mhkjh mhljk hmjkj"
+            ]
+        },
+        {
+            "title": "Mélange des deux mains sur la rangée du milieu.",
+            "content": [
+                "fqd fqds lqd lqds lqss hqlqs sqlqd sqlqds dqd gqds sqlqds",
+                "qd qdd gqds hqdds hqs gqsk qsks lq lqd lqds lqss dq dqd dqdq",
+                "qll fqll fqlls qlf qlfq qlfqs fqd fqds sqlsq skq skqld flqsks"
+            ]
+        },
+        {
+            "title": "Excercice de la main gauche, rangée du haut.",
+            "content": [
+                "aaaa zzzz eeee rrrr tttt aaaa zzzz eeee rrrr tttt",
+                "aa zz ee rr tt aa zz ee rr tt",
+                "azert azert azert azert",
+                "raezt earzt zartz ezart taerz zeatr rteza"
+            ]
+        },
+        {
+            "title": "Excercice de la main droite, rangée du haut.",
+            "content": [
+                "yyyy uuuu iiii oooo pppp yyyy uuuu iiii oooo pppp",
+                "yy uu ii oo pp yy uu ii oo pp",
+                "yuiop yuiop yuiop yuiop yuiop yuiop",
+                "poyui ouyip youpi uypoi uoiyp ioypu"
+            ]
+        },
+        {
+            "title": "Excercice de la main gauche, rangée du bas.",
+            "content": [
+                "wwww xxxx cccc vvvv bbbb wwww xxxx cccc vvvv bbbb",
+                "ww xx cc vv bb ww xx cc vv bb",
+                "wxcvb wxcvb wxcvb wxcvb wxcvb wxcvb wxcvb",
+                "vbwcx cwbvx bxwvc cxwbv vwxcb bwcvx xbcwv wvbcx vcxwb"
+            ]
+        },
+        {
+            "title": "Excercice de la main droite, rangée du bas.",
+            "content": [
+                "nnnn ,,,, ,,,, .... nnnn ,,,, ,,,, .... nnnn ,,,, ,,,, ....",
+                "nn ,, ,, .. nn ,, ,, .. nn ,, ,, ..",
+                "n,,. n,,. .,,n .,,n",
+                "n.,, ,n., .,,n n,,. ,.n,, nn,,n. ,n.,n"
+            ]
+        },
+        {
+            "title": "Excercice simple mélangeant les deux mains.",
+            "content": [
+                "qsdfghkl; azertyuiop mlkjhgfdsq poiuytreza",
+                "qsdfghjklml azertyuiop mlkjhgfdsq poiuytreza",
+                "wxcvbn,. ,nbvcxw lkjhgfdsq poiuytrewq ,nbvcxw lkjhgfdsq"
+            ]
+        },
+        {
+            "title": "Excercice mélangeant les deux mains.",
+            "content": [
+                "aux noces d'un tyran tout le peuple en liesse",
+                "noyait son souci dans les pots",
+                "esope seul trouvait que les gens étaient sots",
+                "de témoigner tant d'allégresse.",
+                "le soleil, disait-il, eut dessein autrefois",
+                "de songer à l'hyménée.",
+                "aussitôt on ouït d'une commune voix"
+            ]
+        },
+        {
+            "title": "Excercice mélangeant les deux mains.",
+            "content": [
+                "Aux noces d'un Tyran tout le Peuple en liesse",
+                "Noyait son souci dans les pots",
+                "Esope seul trouvait que les gens étaient sots",
+                "De témoigner tant d'allégresse.",
+                "Le Soleil, disait-il, eut dessein autrefois",
+                "De songer à l'hyménée.",
+                "Aussitôt on ouït d'une commune voix"
+            ]
+        }
+    ],
+    "finger_mapping": [
+        [9, [" "]],
+        [1, ["a", "q", "w", "1"]],
+        [2, ["s", "z", "x", "2", "é"]],
+        [3, ["d", "e", "c", "3", "\""]],
+        [4, ["f", "r", "v", "4", "'"]],
+        [4, ["g", "t", "b", "5", "("]],
+        [5, ["h", "y", "n", "6", "-"]],
+        [5, ["j", "u", "m", "7", "?", "è"]],
+        [6, ["k", "i", ";", ".", "8", "ç"]],
+        [7, ["l", "o", ":", "9", "/", "à", ")"]],
+        [8, ["m", "p", "^", "0", "!", "ï"]]
+    ]
+}

@@ -1,0 +1,53 @@
+.main-title {
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+#user-model {
+    border: 0;
+    display: inline-block;
+    outline: none;
+    resize: none;
+}
+
+.user-input {
+    width: 100%;
+    border: 0;
+    outline: none;
+    resize: none;
+    color: #4a4a4a;
+    padding-bottom: 2rem;
+}
+
+.hands {
+    text-align: center;
+}
+
+.blink {
+    animation: blinker 1.2s step-start infinite;
+}
+
+@keyframes blinker {
+    50% {
+        border-right: 1px solid black;
+    }
+}
+
+.blink-left {
+    animation: blinker-left 1.2s step-start infinite;
+}
+
+@keyframes blinker-left {
+    50% {
+        border-left: 1px solid black;
+    }
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}

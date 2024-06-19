@@ -1,0 +1,22 @@
+<div class="progress-step-parent">
+    @for (level of excercises.content; let idxLevel = $index; track level) {
+    <div
+        class="progress-step dropdown is-hoverable"
+        [class.is-current]="progress.level === idxLevel"
+        [class.is-done]="progress.level > idxLevel"
+        [class.is-not-done]="progress.level < idxLevel"
+        [class.pointer]="progress.level !== idxLevel"
+        (click)="levelChange.emit(idxLevel)"
+    >
+        <div class="dropdown-trigger" aria-haspopup="true"></div>
+        <div class="dropdown-menu" role="menu" style="z-index: 10000">
+            <div class="dropdown-content">
+                <div class="dropdown-item">
+                    <div><span i18n>Level</span> {{ idxLevel + 1 }}</div>
+                    <div>{{ level.title }}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    }
+</div>

@@ -1,0 +1,29 @@
+.progress-step {
+    flex: 1;
+}
+.pointer {
+    cursor: pointer;
+}
+.progress-step-parent {
+    display: flex;
+    height: 1rem;
+}
+
+.progress-step-parent > .is-done {
+    background-color: #48c78e;
+}
+.progress-step-parent > .is-done:hover {
+    background-color: #44bd87;
+}
+
+.progress-step-parent > .is-not-done {
+    background-color: #ededed;
+}
+
+.progress-step-parent > .is-not-done:hover {
+    background-color: #dddddd !important;
+}
+
+.progress-step-parent > .is-current {
+    background-color: #9fcab7;
+}

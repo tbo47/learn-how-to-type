@@ -1,0 +1,89 @@
+<div id="dialog">
+    <div id="dialog-text">
+        <div>{{ scoreAndTime }}</div>
+        <div>{{ velocity }}</div>
+        <div>{{ dialogComment }}</div>
+    </div>
+    <div class="dialog-element">
+        <button class="button" i18n (click)="startOver()">Start over</button>
+        @if (canGoToNextStep) {
+        <button id="dialog-next" class="button" i18n (click)="next()">Next</button>
+        }
+    </div>
+    @if (locale.startsWith('en')) {
+    <div class="dialog-element" id="tips">
+        @if (random===0) {
+        <div>
+            Click on the social media name to share this website:
+            <a
+                target="_blank"
+                href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Flearn-how-to-type.com%2Fen%2F&amp;src=sdkpreparse"
+                class="fb-xfbml-parse-ignore"
+                >facebook</a
+            >,
+            <a href="https://twitter.com/share" class="twitter-share-button" target="_blank" data-show-count="false"
+                >twitter</a
+            >
+            or
+            <a
+                href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.learn-how-to-type.com/en/"
+                target="_blank"
+                class="linkedin-share-button"
+                >linkedin</a
+            >.
+        </div>
+        } @else if (random===1) {
+        <div>
+            The bumps or nipples found on the F and J keys on the keyboard helps users correctly position their left and
+            right hand on the keyboard without having to look at the keyboard. These keys are referred to as the home
+            row.
+        </div>
+        } @else if (random>=2) {
+        <div>
+            <div>
+                Sponsor this website on <a href="//github.com/sponsors/tbo47" target="github">github</a> or
+                <a href="//patreon.com/teebo47" target="patreon">patreon</a>.
+            </div>
+            <div>Or buy me a coffee on <a href="//www.buymeacoffee.com/tbo47" target="buy">buymeacoffee</a></div>
+        </div>
+        }
+    </div>
+    } @else if (locale.startsWith('fr')) {
+    <div class="dialog-element" id="tips">
+        @if (random===0) {
+        <div>
+            Aidez a faire connaitre ce site en cliquant sur:
+            <a
+                target="_blank"
+                href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Flearn-how-to-type.com%2Fen%2F&amp;src=sdkpreparse"
+                class="fb-xfbml-parse-ignore"
+                >facebook</a
+            >,
+            <a href="https://twitter.com/share" class="twitter-share-button" target="_blank" data-show-count="false"
+                >X</a
+            >
+            ou
+            <a
+                href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.learn-how-to-type.com/en/"
+                target="_blank"
+                class="linkedin-share-button"
+                >linkedin</a
+            >.
+        </div>
+        } @else if (random===1) {
+        <div>
+            Les petites bosses qui se trouve sur les touches F et J aident l'utilisateur à positionner correctement la
+            gauche et main droite sans avoir à regarder le clavier.
+        </div>
+        } @else if (random>=2) {
+        <div>
+            <div>
+                Parrainez ce site sur <a href="//github.com/sponsors/tbo47" target="github">github</a> or
+                <a href="//patreon.com/teebo47" target="patreon">patreon</a>.
+            </div>
+            <div>Ou achetez moi un cafe sur <a href="//www.buymeacoffee.com/tbo47" target="buy">buymeacoffee</a></div>
+        </div>
+        }
+    </div>
+    }
+</div>

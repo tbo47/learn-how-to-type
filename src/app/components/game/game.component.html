@@ -1,0 +1,25 @@
+<div id="game">
+    <div class="main-title">
+        <span i18n i18n-title id="title">Learn how to type</span>
+        <span> - </span>
+        <span i18n>level</span> {{ progress.level + 1 }}
+    </div>
+    <div style="text-align: center" class="is-family-monospace">
+        <span id="user-model" #userModel>{{ progress.model }}</span>
+    </div>
+    <div class="is-family-monospace">
+        @if (!progress.input) {
+        <span class="blink-left"></span>
+        }
+        <span class="user-input" #userInput>
+            @for (char of progress.input.split(''); track idx; let idx = $index) {
+            <span [class]="getCharClass(char, idx)">{{ char === ' ' ? '&nbsp;' : char }}</span>
+            }
+        </span>
+        &nbsp;
+    </div>
+    <div class="hands">
+        <img #hands src="assets/hands0.png" alt="left hand" class="left-hand" />
+    </div>
+    <div style="text-align: center; font-size: 1rem">{{ progress.time }}s</div>
+</div>

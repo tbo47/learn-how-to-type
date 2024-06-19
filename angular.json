@@ -1,0 +1,115 @@
+{
+    "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+    "version": 1,
+    "newProjectRoot": "projects",
+    "projects": {
+        "learn-how-to-type": {
+            "projectType": "application",
+            "schematics": {
+                "@schematics/angular:component": {
+                    "style": "scss"
+                }
+            },
+            "root": "",
+            "sourceRoot": "src",
+            "prefix": "app",
+            "i18n": {
+                "sourceLocale": "en-US",
+                "locales": {
+                    "en": {
+                        "translation": "src/locale/messages.xlf",
+                        "baseHref": "en/"
+                    },
+                    "fr": {
+                        "translation": "src/locale/messages.fr.xlf",
+                        "baseHref": "fr/"
+                    }
+                }
+            },
+            "architect": {
+                "build": {
+                    "builder": "@angular-devkit/build-angular:application",
+                    "options": {
+                        "outputPath": "dist/learn-how-to-type",
+                        "index": "src/index.html",
+                        "browser": "src/main.ts",
+                        "polyfills": ["zone.js", "@angular/localize/init"],
+                        "tsConfig": "tsconfig.app.json",
+                        "inlineStyleLanguage": "scss",
+                        "assets": ["src/favicon.png", "src/assets"],
+                        "styles": ["src/styles.scss"],
+                        "localize": ["en", "fr"],
+                        "scripts": []
+                    },
+                    "configurations": {
+                        "production": {
+                            "budgets": [
+                                {
+                                    "type": "initial",
+                                    "maximumWarning": "500kb",
+                                    "maximumError": "1mb"
+                                },
+                                {
+                                    "type": "anyComponentStyle",
+                                    "maximumWarning": "2kb",
+                                    "maximumError": "4kb"
+                                }
+                            ],
+                            "outputHashing": "all"
+                        },
+                        "development": {
+                            "optimization": false,
+                            "extractLicenses": false,
+                            "sourceMap": true
+                        }
+                    },
+                    "defaultConfiguration": "production"
+                },
+                "serve": {
+                    "builder": "@angular-devkit/build-angular:dev-server",
+                    "configurations": {
+                        "production": {
+                            "buildTarget": "learn-how-to-type:build:production"
+                        },
+                        "development": {
+                            "buildTarget": "learn-how-to-type:build:development"
+                        }
+                    },
+                    "defaultConfiguration": "development"
+                },
+                "extract-i18n": {
+                    "builder": "@angular-devkit/build-angular:extract-i18n",
+                    "options": {
+                        "buildTarget": "learn-how-to-type:build"
+                    }
+                },
+                "test": {
+                    "builder": "@angular-devkit/build-angular:karma",
+                    "options": {
+                        "polyfills": ["zone.js", "zone.js/testing"],
+                        "tsConfig": "tsconfig.spec.json",
+                        "inlineStyleLanguage": "scss",
+                        "assets": ["src/favicon.png", "src/assets"],
+                        "styles": ["src/styles.scss"],
+                        "scripts": []
+                    }
+                },
+                "e2e": {
+                    "builder": "@puppeteer/ng-schematics:puppeteer",
+                    "options": {
+                        "devServerTarget": "learn-how-to-type:serve",
+                        "testRunner": "jasmine"
+                    },
+                    "configurations": {
+                        "production": {
+                            "devServerTarget": "learn-how-to-type:serve:production"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "cli": {
+        "analytics": "9a622aea-111d-414d-bc91-99fd9ba7a7a1"
+    }
+}

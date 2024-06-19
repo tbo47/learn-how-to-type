@@ -1,0 +1,22 @@
+@if(excercises){
+<app-progress-bar
+    [progress]="progress"
+    [excercises]="excercises"
+    (levelChange)="doLevelChange($event)"
+></app-progress-bar>
+
+<app-change-locale-dropdown [locale]="simpleLocale"></app-change-locale-dropdown>
+
+<section class="is-fullheight-with-navbar">
+    <div class="container">
+        @if (showGame) {
+        <app-game [excercises]="excercises" [progress]="progress" (levelCompleted)="onLevelCompleted()"></app-game>
+        } @else {
+        <app-dialog [excercises]="excercises" [progress]="progress" (userDecision)="onUserDecision()"></app-dialog>
+        }
+        <input id="hidden-input" type="text" style="position: absolute; top: -10rem" />
+    </div>
+</section>
+} @else {
+<progress class="progress is-dark"></progress>
+}

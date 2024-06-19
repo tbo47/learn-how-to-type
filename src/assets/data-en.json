@@ -1,0 +1,146 @@
+{
+    "content": [
+        {
+            "title": "Simple excercice for the left hand and the middle row of the keyboard",
+            "content": [
+                "aaaa ssss dddd ffff gggg aaaa ssss dddd ffff gggg aaaa ssss",
+                "aa ss dd ff gg aa ss dd ff gg aa ss dd ff gg",
+                "asdfg asdfg asdfg asdfg asdfg asdfg asdfg asdfg",
+                "fgads dagfs gsafd dsagf fasdg gadfs sgdaf afgds fdsag"
+            ]
+        },
+        {
+            "title": "Simple excercice for the right hand and the middle row of the keyboard",
+            "content": [
+                "hhhh jjjj kkkk llll ;;;; hhhh jjjj kkkk llll ;;;; h j k l ;",
+                "hh jj kk lll ;; hhhh jjj kkk lll ;;; h j k l ;",
+                ";lkjh ;lkjh ;lkjh ;lkjh",
+                "klhj; ;hkjh ;hljk h;jkj"
+            ]
+        },
+        {
+            "title": "More advanced excercice for the left hand only and the middle row of the keyboard",
+            "content": [
+                "dafsg sagfd sfgasg asgfd sgsda gadsf asgfsd agfsd aaggddssff",
+                "fgads dagfs gsafd dsagf fasdg gadfs sgdaf afgds fdsag",
+                "dafsg sagfd sfgasg asgfd sgsda gadsf asgfsd agfsd aaggddssff",
+                "fgads dagfs gsafd dsagf fasdg gadfs sgdaf afgds fdsag"
+            ]
+        },
+        {
+            "title": "Mixing left and right hands but only on the middle row of the keyboard",
+            "content": [
+                "fad fads lad lads lass halks salad salads kad gads jalads hal",
+                "ad add gads hadds has gask asks la lad lads lass da dad dada",
+                "all fall falls alf alfa alfas fad fads salsa ska skald flasks",
+                "a;sfh skjgl sag;j gslkf alsdf alkjs hgdfls a;lsjdk ahgklsg h"
+            ]
+        },
+        {
+            "title": "Simple excercice for the left hand and the top row of the keyboard",
+            "content": [
+                "qqqq wwww eeee rrrr tttt qqqq wwww eeee rrrr tttt",
+                "qq ww ee rr tt qq ww ee rr tt qq ww ee rr tt",
+                "qwert qwert qwert qwert treqw treqw treqw treqw",
+                "rqewt eqrwt wqrtw ewqrt tqerw weqtr rtewq"
+            ]
+        },
+        {
+            "title": "Simple excercice for the right hand and the top row of the keyboard",
+            "content": [
+                "yyyy uuuu iiii oooo pppp yyyy uuuu iiii oooo pppp",
+                "yy uu ii oo pp yy uu ii oo pp yy uu ii oo pp",
+                "yuiop yuiop yuiop yuiop yuiop yuiop",
+                "poyui ouyip youpi uypoi uoiyp ioypu yiuop yuipo"
+            ]
+        },
+        {
+            "title": "Mixing left and right hands but only on the top row of the keyboard",
+            "content": [
+                "qwert yuiop qwer yuio qwe yui qwer yuiop qwer yuiop o w p o",
+                "qwert yuiopt qwer yuiop qwer yuiop qwer yuiop qwer yuiop",
+                "qowrut qowuty qowie qowur tqprw oqtwu powty qwtieo poqut q",
+                "pqut woqpurw tyir wopqtu qowptu qowptu qowptu qowptu qowpt"
+            ]
+        },
+        {
+            "title": "Simple excercice for the left hand and the bottom row of the keyboard",
+            "content": [
+                "zzzz xxxx cccc vvvv bbbb zzzz xxxx cccc vvvv bbbb",
+                "zz xx cc vv bb zz xx cc vv bb",
+                "zxcvb zxcvb zxcvb zxcvb zxcvb zxcvb zxcvb",
+                "vbzcx czbvx bxzvc cxzbv vzxcb bzcvx xbczv zvbcx vcxzb"
+            ]
+        },
+        {
+            "title": "Simple excercice for the right hand and the bottom row of the keyboard",
+            "content": [
+                "nnnn mmmm ,,,, .... nnnn mmmm ,,,, .... nnnn mmmm ,,,, ....",
+                "nn mm ,, .. nn mm ,, .. nn mm ,, ..",
+                "nm,. nm,. .,mn .,mn",
+                "n.m, ,n.m .m,n n,m. ,.nmm nnm,n. ,n.mn"
+            ]
+        },
+        {
+            "title": "Mixing left and right hands but only on the bottom row of the keyboard",
+            "content": [
+                "z.xvm x,vb n,mbv ,nbvm z,xvm x,vb n,mbv ,nbvm z,xvm x,vb n,mbv",
+                "zxcvbnm,. mnbvcxz lkjhgfdsa poiuytrewq mnbvcxz lkjhgfdsa poiuy",
+                "zx.xz .,zxvbn xn.mz. ,.mzxn zx.xz .,zxvbn xn.mz. ,.mzxn",
+                "zxcvbnm,. mnbvcxz lkjhgfdsa poiuytrewq mnbvcxz lkjhgfdsa poiuy"
+            ]
+        },
+        {
+            "title": "Review of what we have seen so far",
+            "content": [
+                "asdfghkl; qwertyuiop ;lkjhgfdsa poiuytrewq",
+                "asdfghjkl;lqwertyuiop ;lkjhgfdsa poiuytrewq",
+                "zxcvbnm,. mnbvcxz lkjhgfdsa poiuytrewq mnbvcxz lkjhgfdsa",
+                "qpwoeiruty a;sldkfjgh zmxncbv,. qpwoeiruty a;sldkfjgh zm,"
+            ]
+        },
+        {
+            "title": "Mixing rows and hands",
+            "content": [
+                "qaswedr tfgtgb yhujik ol;pl, qaswedr tfgtgb yhujik ol;pl,",
+                "zxfvg awqezcv rtyhnm, lkjuyhnb zxfvg awqezcv rtyhnm, lkju",
+                "lopuyom, .njuhokyp;hjikol lopuyom, .njuhokyp;hjikol lopuy",
+                "wopmjal zxcfw,nm. qazwsxedc rfvgtbhyn wopmjal zxcfw,nm. q"
+            ]
+        },
+        {
+            "title": "Capital letters",
+            "content": [
+                "QwrTY UiOpL ;lkJH GfDsa POIuy TreWq UiOpL POETRY",
+                "ZCbXm CSLEW QWERTYUIOP ;lkjhgfdsa POIUYTREWQ CSLEW ",
+                "LoL lOl wOw wOw WJGJ CXBMWs owOw oWoW WOUIN wouin DFGHJKL",
+                "QwrTY UiOpL ;lkJH GfDsa POIuy TreWq UiOpL POETRY"
+            ]
+        },
+
+        {
+            "title": "Real text with capital letters",
+            "content": [
+                "Poetry has a long and varied history, evolving differentially.",
+                "It dates back at least to prehistoric times with hunting poet.",
+                "The earliest surviving Western Asian epic poem",
+                "The Epic of Gilgamesh, was written in the Sumerian language."
+            ]
+        }
+    ],
+    "finger_mapping": [
+        [9, [" "]],
+        [1, ["a", "q", "z", "1"]],
+        [2, ["s", "w", "x", "2"]],
+        [3, ["d", "e", "c", "3"]],
+        [4, ["f", "r", "v", "4"]],
+        [4, ["g", "t", "b", "5"]],
+        [5, ["h", "y", "n", "6"]],
+        [5, ["j", "u", "m", "7"]],
+        [6, ["k", "i", ",", "8"]],
+        [7, ["l", "o", ".", "9"]],
+        [8, [";", "p", "/", "0"]],
+        [8, ["'", "[", "]", "-"]],
+        [8, ["\\", "]", "=", "+"]]
+    ]
+}
