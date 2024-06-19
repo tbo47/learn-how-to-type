@@ -59,6 +59,10 @@ export class GameComponent {
      * Change the page according to the progress object
      */
     #reactToUserTyping() {
+        if (this.excercises.content.length <= this.progress.level + 1) {
+            alert('You have completed all the levels')
+            return
+        }
         const level = this.excercises.content[this.progress.level]
         const model = level.content[this.progress.step]
         this.progress.model = model
